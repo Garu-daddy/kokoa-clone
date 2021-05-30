@@ -1,3 +1,3 @@
 # KOKOA-CLONE
 
-This is my first cloning project!
+Test to see the change
