@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>서비스 없음</span>
+        <!--Wifi 아이콘-->
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column"></div>
+      <span>23:55</span>
+      <div class="status-bar__column">
+        <span>47%</span>
+        <i class="fas fa-battery-half"></i>
+        <!--배터리 아이콘-->
+        <!--충전중 아이콘-->
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+      <p class="welcome-header__text">
+        카카오 계정이 있다면, 이메일이나 전화번호 로그인 해주세요.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="아이디 혹은 전화번호" />
+      <input type="password" placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <a href="#"> 카카오 계정이나 비밀번호 찾기</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
