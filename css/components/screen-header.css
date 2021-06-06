@@ -1,8 +1,14 @@
 .screen-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  padding: 60px 25px;
+  padding: 60px var(--horizontal-space) 30px var(--horizontal-space);
   align-items: center;
+  background-color: white;
+  z-index: 2;
 }
 
 .screen-header__title {

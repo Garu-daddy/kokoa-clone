@@ -7,7 +7,21 @@
 @import "components/welcome-header.css";
 @import "components/navbar.css";
 @import "components/screen-header.css";
+@import "components/user.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+
+body {
+  color: #2e363e;
+}
+
+.stars {
+  color: goldenrod;
+  margin-left: 3px;
+}
+
+html {
+  height: 160vh;
+}
