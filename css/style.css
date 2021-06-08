@@ -8,7 +8,7 @@
 @import "components/navbar.css";
 @import "components/screen-header.css";
 @import "components/user.css";
-
+@import "components/badge.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -24,4 +24,9 @@ body {
 
 html {
   height: 160vh;
+}
+
+.main-screen {
+  margin-top: 70px;
+  padding: 60px 20px 0px 20px;
 }
