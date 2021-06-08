@@ -6,7 +6,7 @@
 .user-component,
 .user-component__column:first-child {
   display: flex;
-
+  margin-bottom: 10px;
   align-items: center;
 }
 
@@ -54,7 +54,6 @@
   width: 52px;
   height: 52px;
   border-radius: 20.5px;
-  margin-bottom: 10px;
 }
 
 .user-component__time {
