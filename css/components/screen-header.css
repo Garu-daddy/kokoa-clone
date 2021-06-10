@@ -8,7 +8,7 @@
   padding: 60px var(--horizontal-space) 30px var(--horizontal-space);
   align-items: center;
   background-color: white;
-  z-index: 2;
+  z-index: 1;
 }
 
 .screen-header__title {

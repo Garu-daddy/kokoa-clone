@@ -9,9 +9,15 @@
 @import "components/screen-header.css";
 @import "components/user.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 
 body {
   color: #2e363e;
@@ -19,14 +25,17 @@ body {
 
 .stars {
   color: goldenrod;
-  margin-left: 3px;
 }
 
 html {
-  height: 160vh;
+  height: 300vh;
 }
 
 .main-screen {
   margin-top: 70px;
   padding: 60px 20px 0px 20px;
+}
+
+.comment-alt {
+  color: rgba(0, 0, 0, 0.7);
 }
