@@ -26,10 +26,14 @@
 }
 
 .icon-row2 .icon-row__icon {
-  margin-right: 61px;
-  margin-left: -9px;
+  margin-right: 55px;
+  margin-left: -5px;
 }
 
 .icon-row .icon-row__icon:nth-child(2) {
-  margin: 0px -15px;
+  margin: 0px -20px;
+}
+
+.icon-row .icon-row__icon:nth-child(4) {
+  margin-left: -25px;
 }
