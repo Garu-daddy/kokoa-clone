@@ -13,27 +13,22 @@
 
 .icon-row__icon i {
   font-size: 30px;
+  justify-content: space-between;
 }
 
 .icon-row__icon span {
   margin-top: 18px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 .icon-row2 {
   display: flex;
   font-size: 14px;
   padding: 20px 20px 0px 20px;
+  justify-content: space-between;
 }
 
 .icon-row2 .icon-row__icon {
-  margin-right: 55px;
-  margin-left: -5px;
-}
-
-.icon-row .icon-row__icon:nth-child(2) {
-  margin: 0px -20px;
-}
-
-.icon-row .icon-row__icon:nth-child(4) {
-  margin-left: -25px;
+  margin-right: 85px;
 }
