@@ -1,5 +1,5 @@
 .more-suggestions {
-  margin-top: 40px;
+  margin-top: 52px;
   border-top: 1px solid var(--pink);
   padding-top: 15px;
 }
@@ -13,31 +13,31 @@
 
 .more-suggestions__icons {
   display: flex;
-  text-align: center;
-  align-items: center;
-}
-
-.more-suggestions__icon img {
-  width: 45px;
-  height: 45px;
-  border-radius: 11px;
-  margin-bottom: 10px;
+  padding: 10px 14px;
 }
 
 .more-suggestions__icon-image {
-  margin-right: 25px;
+  width: 50px;
+  margin-right: 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
+}
+
+.more-suggestions__icon-image img {
+  width: 45px;
+  height: 45px;
+  border-radius: 20%;
+  margin-bottom: 10px;
 }
 
 .more-suggestions__name {
   font-size: 14px;
   font-weight: 500;
+  position: absolute;
+  width: max-content;
+  bottom: -20px;
   color: rgba(0, 0, 0, 0.5);
-}
-
-.more-suggestions__icon:last-child {
-  margin-left: 10px;
 }

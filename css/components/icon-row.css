@@ -9,26 +9,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 40px;
+  position: relative;
 }
 
 .icon-row__icon i {
   font-size: 30px;
-  justify-content: space-between;
 }
 
 .icon-row__icon span {
   margin-top: 18px;
-  margin-left: -20px;
-  margin-right: -20px;
+  position: absolute;
+  bottom: -28px;
+  width: max-content;
 }
 
 .icon-row2 {
   display: flex;
+  justify-content: space-between;
   font-size: 14px;
   padding: 20px 20px 0px 20px;
-  justify-content: space-between;
-}
-
-.icon-row2 .icon-row__icon {
-  margin-right: 85px;
 }
