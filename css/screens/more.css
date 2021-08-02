@@ -37,3 +37,7 @@
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.more-suggestions__icon:last-child {
+  margin-left: 10px;
+}
