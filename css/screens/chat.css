@@ -72,7 +72,7 @@
 }
 
 .message-row__own .message__bubble {
-  background-color: #fee6ec;
+  background-color: #d6eef2;
   padding: 8px 12px;
   border-radius: 10px;
   font-size: 15px;
@@ -161,7 +161,7 @@
 
 .reply_column button {
   border: none;
-  background-color: #fee6ec;
+  background-color: #bae7ee;
   width: 28px;
   height: 28px;
   border-radius: 50%;

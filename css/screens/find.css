@@ -68,12 +68,13 @@
 }
 
 .open-post__followers-status {
-  color: #ffb0e0;
+  color: #83c2cb;
 }
 
 .open-post__followers img {
-  width: 25px;
-  border-radius: 12.5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .open-post__followers .divider {
@@ -86,7 +87,8 @@
   position: relative;
 }
 .open-post__photo img {
-  width: 120px;
+  width: 180px;
+  height: 80px;
   border-radius: 10px;
 }
 
